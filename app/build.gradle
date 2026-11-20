@@ -1,0 +1,19 @@
+plugins {
+    id 'com.android.application'
+}
+android {
+    namespace 'com.mc1h.openfilelab'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.mc1h.openfilelab'
+        minSdk 26
+        targetSdk 35
+        versionCode 3
+        versionName '0.2.1'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
